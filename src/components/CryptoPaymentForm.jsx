@@ -67,13 +67,13 @@ export default function CryptoPaymentForm() {
         </div>
 
         <div className="relative z-10 flex items-center justify-center px-4 py-6 md:h-screen md:py-0">
-          <div className="flex flex-col items-center justify-center gap-6 mx-auto bg-white rounded-[20px] shadow-md md:flex-row md:gap-0 max-w-6xl">
-            
+          <div className="flex flex-col items-center justify-center gap-6 mx-auto bg-white  rounded-[20px] shadow-md md:flex-row  md:mt-0 mt-28  md:gap-0 max-w-6xl">
+     
             <div className='hidden md:flex h-[572px] justify-center items-center  bg-black rounded-l-[20px]'>
               <img src={leftSideImage} className=" w-full md:w-[620px] h-full rounded-l-[20px]" alt="Category" />
             </div>
 
-            <div className="p-6 md:p-10 flex min-h-[500px] md:h-[572px] flex-col justify-between w-full md:max-w-[416px] rounded-[20px] md:rounded-[17px] md:rounded-l-none">
+            <div className="p-6 md:p-10 flex min-h-[500px] md:h-[572px] flex-col justify-between  w-full md:max-w-[416px] rounded-[20px] md:rounded-[17px] md:rounded-l-none">
               <div>
                 <h1 className="flex justify-center pb-4 text-2xl font-bold font-krona md:justify-start text-headings">
                   <img src={logo} className="w-10 h-12 md:h-16 md:w-14" alt="Profile" />
